@@ -22,6 +22,8 @@ edge3 = createSprite(0,1600,5,10);
 edge3.shapeColor = "black"; 
 edge4 = createSprite(1600,0,10,5);  
 edge4.shapeColor = "black"; 
+box.x = World.mouseX;
+box.y = World.mouseY;
 }
 
 function draw() {
